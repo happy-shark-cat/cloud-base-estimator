@@ -20,3 +20,23 @@ The first version uses weather data from Open-Meteo and calculates an approximat
 
 ```text
 Cloud base height ≒ 125 × (Temperature - Dew point)
+
+The result is an approximate height in meters above ground level.
+
+Disclaimer
+
+This application is for learning and visualization purposes only.
+Do not use this application for aviation, navigation, weather observation, or safety-critical decision-making.
+
+
+Tech Stack
+
+Python
+Streamlit
+Open-Meteo API
+
+
+How to Run
+
+pip install -r requirements.txt
+streamlit run app.py
